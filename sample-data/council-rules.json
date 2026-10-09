@@ -1,0 +1,122 @@
+{
+	"year": "2026-2027",
+	"applicationDates": {
+		"from": "2026-01-07",
+		"to": "2026-03-31"
+	},
+	"ageRange": {
+		"min": 11,
+		"max": 17
+	},
+	"places": 50,
+	"bannedFamilies": ["Blackcrow", "Greenbeard"],
+	"unacceptableWeaknesses": ["cruelty", "treachery"],
+	"invitations": ["Tobias Figgleworth"],
+	"points": {
+		"virtue": {
+			"cunning": 12,
+			"wit": 10,
+			"courage": 8,
+			"loyalty": 8,
+			"curiosity": 6,
+			"ambition": 6,
+			"patience": 4,
+			"kindness": 4
+		},
+		"family": {
+			"Nutwood": 15,
+			"Marlowe": 10,
+			"Yewbank": 5
+		},
+		"weakness": {
+			"shyness": -2,
+			"untidiness": -4,
+			"impatience": -6,
+			"laziness": -8,
+			"pride": -10
+		},
+		"age": [
+			{
+				"from": 11,
+				"to": 13,
+				"points": 5
+			},
+			{
+				"from": 14,
+				"to": 15,
+				"points": 2
+			},
+			{
+				"from": 16,
+				"to": 17,
+				"points": 0
+			}
+		]
+	},
+	"houses": [
+		{
+			"name": "Lion",
+			"beds": 14,
+			"points": {
+				"virtue": {
+					"courage": 8,
+					"loyalty": 5
+				},
+				"weakness": {
+					"shyness": 4
+				},
+				"family": {
+					"Marlowe": 4
+				}
+			}
+		},
+		{
+			"name": "Serpent",
+			"beds": 12,
+			"points": {
+				"virtue": {
+					"ambition": 8,
+					"cunning": 5
+				},
+				"weakness": {
+					"pride": 4
+				},
+				"family": {
+					"Ferris": 4
+				}
+			}
+		},
+		{
+			"name": "Raven",
+			"beds": 12,
+			"points": {
+				"virtue": {
+					"wit": 8,
+					"curiosity": 5
+				},
+				"weakness": {
+					"untidiness": 4
+				},
+				"family": {
+					"Yewbank": 4
+				}
+			}
+		},
+		{
+			"name": "Badger",
+			"beds": 12,
+			"points": {
+				"virtue": {
+					"kindness": 8,
+					"patience": 5
+				},
+				"weakness": {
+					"laziness": 4
+				},
+				"family": {
+					"Nutwood": 4
+				}
+			}
+		}
+	]
+}
